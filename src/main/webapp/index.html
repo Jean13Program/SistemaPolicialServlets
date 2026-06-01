@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión Policial</title>
+    <link rel="stylesheet" href="diseño_pagina.css">
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <div class="header-left-container">
+            <div class="user-info">
+                <span class="user-label">Sistema:</span>
+                <span class="user-name">Gestión Policial Web</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="dashboard-container">
+        <section class="welcome-section">
+            <h1>Sistema de Gestión Policial</h1>
+            <p class="welcome-text">
+                Módulos web con Servlets, JSP y conexión a MySQL
+            </p>
+        </section>
+
+        <div class="cards-grid">
+            <a class="card-menu" href="registro_denuncias.jsp">
+                <div class="card-icon">
+                    <img src="imagenes/nube.png" alt="Registro">
+                </div>
+                <h3>Registro de denuncias</h3>
+            </a>
+
+            <a class="card-menu" href="consulta_denuncias.jsp">
+                <div class="card-icon">
+                    <img src="imagenes/descargar.png" alt="Consulta">
+                </div>
+                <h3>Consulta de denuncias</h3>
+            </a>
+        </div>
+    </main>
+
+</body>
+</html>

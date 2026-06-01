@@ -1,0 +1,5 @@
+modelo\denuncia.class
+controlador\RegistrarDenunciaServlet.class
+dao\denunciaDAO.class
+conexion\Conexion.class
+controlador\ConsultarDenunciaServlet.class
